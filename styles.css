@@ -39,7 +39,7 @@ h1 {
   margin-bottom: 20px;
   font-size: 2rem;
 }
-  
+
 input {
   padding: 10px;
   margin-bottom: 10px;
@@ -81,7 +81,7 @@ button:hover {
   button {
     font-size: 1.25rem;
   }
-   
+
   #output {
     font-size: 1.25rem;
   }
