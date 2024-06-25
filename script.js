@@ -22,7 +22,7 @@ function convertToRoman(num) {
       num -= value;
     }
   }
-    return result;
+  return result;
 }
 
 document.getElementById('convert-btn').addEventListener('click', () => {
@@ -34,16 +34,16 @@ document.getElementById('convert-btn').addEventListener('click', () => {
     outputElement.textContent = 'Please enter a valid number';
     return;
   }
- 
+  
   if (inputValue < 1) {
     outputElement.textContent = 'Please enter a number greater than or equal to 1';
     return;
   }
-  
+    
   if (inputValue >= 4000) {
     outputElement.textContent = 'Please enter a number less than or equal to 3999';
     return;
   }
-  
+      
   outputElement.textContent = convertToRoman(inputValue);
 });
