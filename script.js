@@ -16,14 +16,16 @@ function convertToRoman(num) {
   ];
 
   let result = '';
-  for (const { value, numeral } of romanNumerals) {
-    while (num >= value) {
-      result += numeral;
-      num -= value;
+
+  for (let i = 0; i < romanNumerals.length; i++) {
+    while (num >= romanNumerals[i].value) {
+      result += romanNumerals[i].numeral;
+      num -= romanNumerals[i].value;
     }
   }
+
   return result;
-}
+}  
 
 document.getElementById('convert-btn').addEventListener('click', () => {
   const inputElement = document.getElementById('number');
