@@ -1,7 +1,7 @@
 document.getElementById('convert-btn').addEventListener('click', () => {
-    const inputElement = document.getElementById('number');
-    const outputElement = document.getElementById('output');
-    const inputValue = parseInt(inputElement.value.trim(), 10);
+  const inputElement = document.getElementById('number');
+  const outputElement = document.getElementById('output');
+  const inputValue = parseInt(inputElement.value.trim(), 10);
   
     if (isNaN(inputValue)) {
       outputElement.textContent = 'Please enter a valid number';
