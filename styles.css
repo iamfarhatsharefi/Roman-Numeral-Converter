@@ -1,16 +1,16 @@
 body {
-  font-family: Arial, sans-serif;
-  background: url('https://images.unsplash.com/photo-1611175694784-d7d374c2f3d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHJvbWFuJTIwbnVtZXJhbHN8ZW58MHx8fHwxNjQyNzA2MzQ2&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
-  background-size: cover;
-   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  position: relative;
-  overflow: hidden;
+    font-family: Arial, sans-serif;
+    background: url('https://images.unsplash.com/photo-1549892186-24eb97c17bb5') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
 }
-  
+
   body::before {
   content: '';
   position: absolute;
