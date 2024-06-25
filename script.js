@@ -19,8 +19,8 @@ document.getElementById('convert-btn').addEventListener('click', () => {
   }
   
   outputElement.textContent = convertToRoman(inputValue);
-  });
-  
+});
+
 function convertToRoman(num) {
   const romanNumerals = [
     { value: 1000, numeral: 'M' },
