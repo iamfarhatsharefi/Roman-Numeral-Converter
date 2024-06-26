@@ -31,17 +31,17 @@ document.getElementById('convert-btn').addEventListener('click', () => {
   const inputElement = document.getElementById('number');
   const outputElement = document.getElementById('output');
   const inputValue = parseInt(inputElement.value.trim(), 10);
-]        
+        
   if (Number.isNaN(inputValue)) {
     outputElement.textContent = 'Please enter a valid number';
     return;
   }
-]          
+          
   if (inputValue < 1) {
     outputElement.textContent = 'Please enter a number greater than or equal to 1';
     return;
   }
-]  
+  
   if (inputValue >= 4000) {
     outputElement.textContent = 'Please enter a number less than or equal to 3999';
     return;
