@@ -33,7 +33,7 @@ document.getElementById('convert-btn').addEventListener('click', () => {
   const inputValue = parseInt(inputElement.value.trim(), 10);
   
   if (Number.isNaN(inputValue)) {
-    outputElement.textContent = Please enter a valid number';
+    outputElement.textContent = 'Please enter a valid number';
     return;
   }
   
