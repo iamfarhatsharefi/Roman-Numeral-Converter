@@ -25,7 +25,7 @@ function convertToRoman(num) {
   }
 
   return result;
-}  
+ }
 
 document.getElementById('convert-btn').addEventListener('click', () => {
   const inputElement = document.getElementById('number');
